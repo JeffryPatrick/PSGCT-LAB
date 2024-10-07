@@ -42,7 +42,7 @@ public class Question2 {
             return mergeArray[totalLength / 2];
         }
 
-        return (mergeArray[totalLength / 2] + (mergeArray[totalLength / 2] - 1)) / 2;
+        return (mergeArray[totalLength / 2] + (mergeArray[totalLength / 2 - 1])) / 2;
     }
 
     public static void main(String[] args) {
